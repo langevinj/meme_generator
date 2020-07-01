@@ -1,0 +1,72 @@
+h1 {
+    text-align: center;
+    font-size: 36px;
+    background-color: lightgray;
+}
+
+form{
+    background-color: lightgray;
+}
+
+input {
+    margin: 10px; 
+    margin-right: 50px;
+    position: relative;
+}
+
+input[type="text"]{
+    width: 800px;
+}
+    
+label{
+    margin-left: 20px;
+}
+
+#container{
+    float: left;
+}
+
+.memeDiv{
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    display: inline-block;
+    text-align : center;
+    text-shadow: -1px -1px 0 #000;/*I admittedly found this online, and it was the closest solution I could think of to meme text*/
+    text-shadow: 1px -1px 0 #000;
+    text-shadow: -1px 1px 0 #000;
+    text-shadow: 1px 1px 0 #000;
+    margin: 20px 20px;
+}
+
+
+.top, .bottom{
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    right: 25%;
+    word-wrap: break-word;
+    font-size: 30px;
+}
+
+.bottom{
+    bottom: 10px;
+}
+
+.top{
+    top: 5px;
+}
+
+.remove{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    font-size: 100px;
+}
+
+.remove:hover{
+    background-color: grey;
+    opacity: 70%;
+}

@@ -1,0 +1,7 @@
+(6/29) 
+7:05am-11:05am, 3:50pm - 5:20pm
+
+Things that challenged me but ended up being simple:
+-centering the text(ate most of my time)
+-making the text wrap to a new line
+
